@@ -1,9 +1,26 @@
 aid: eisen
 name: Eisen
-description: 'Eisen is a company surfaced as a portfolio company of cowboy-ventures, homebrew, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Eisen is an AI-enabled compliance operations platform for financial institutions and digital
+  asset companies, managing escheatment (unclaimed property), disbursement, customer outreach, and 1099
+  tax reporting across all account types. Its product suite includes an Escheatment Manager that tracks
+  state compliance deadlines and dormancy rules, a Disbursement Manager that automates personalized customer
+  payments, an Outreach Manager that re-engages dormant account holders, and a 1099 Reporting Manager for
+  tax reporting. Eisen handles dormant accounts, stale checks, account wind-downs, and forced closures,
+  and is backed by Cowboy Ventures, Homebrew, and Index Ventures. As of this profile Eisen exposes no
+  public developer API, portal, or documentation; this record captures its identity and public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/eisen/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66e479115928652a34d9e8ac/670586219c4bb8d1fe9ae3b3_OG%20image%20(default).jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +29,20 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: regtech-compliance
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Compliance
+- Escheatment
+- Unclaimed Property
+- Financial Services
+- RegTech
+- Disbursements
+- Tax Reporting
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eisen-domain-security.yml
 - type: Website
   url: https://www.witheisen.com
+- type: About
+  url: https://www.witheisen.com/about
+- type: Compliance
+  url: https://www.witheisen.com/security
+- type: PrivacyPolicy
+  url: https://www.witheisen.com/privacy-policy
+- type: TermsOfService
+  url: https://www.witheisen.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
