@@ -49,7 +49,7 @@ tags:
 - Compliance
 - Escheatment
 - Unclaimed Property
-- Financial-Services
+- Financial Services
 - RegTech
 - Disbursements
 - Tax Reporting
@@ -64,6 +64,7 @@ tags_raw:
 - Disbursements
 - Tax Reporting
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
